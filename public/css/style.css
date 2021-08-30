@@ -1,0 +1,73 @@
+body {
+	overflow-y: scroll;
+}
+main {
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
+}
+th {
+	vertical-align: top;
+}
+main p, main h6 {
+	padding-left: 10px;
+	font-size: 16px;
+}
+.card-header {
+	padding-left: 10px;
+	padding: 1rem 30px;
+	font-size: 20px;
+	background: transparent;
+	color: #cf4520;
+}
+.search-user input {
+	min-width: 230px !important;
+}
+.search-user button {
+	border-radius:  0 5px 5px 0;
+}
+.active {
+	color: #cf4520 !important;
+	border-bottom: 1px solid #cf4520 !important;
+}
+.btn-danger {
+	background: #cf4520 !important;
+	border: 1px solid #cf4520 !important;
+}
+.btn-outline-danger {
+	border: 1px solid #cf4520 !important;
+	color: #cf4520 !important;
+}
+.btn-outline-danger:hover, .btn-outline-danger:focus  {
+	background: #cf4520 !important;
+	color: #fff !important;
+}
+.badge {
+	border: 1px solid gray !important;
+	border-radius: 0 !important;
+	color: gray;
+}
+.btn-sm {
+	min-width: 150px;
+}
+.m-w-50 {
+	min-width: 50px;
+}
+.user_info {
+	position: absolute; 
+	top: 85px; 
+	left: 15px
+}
+.card {
+	min-height: 600px;
+}
+.table {
+	font-size: 15px;
+}
+.up:after { 
+	content: attr(data-icon);
+	font-size: 15px;
+}
+.down:after{ 
+	content: attr(data-icon);
+	font-size: 15px;
+}
